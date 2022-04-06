@@ -1,0 +1,15 @@
+Elsőnek mindig a feszgen feszültségét kell megadni
+Aztán mindig új sorba, ha új komponenst szeretnénk hozzáadni, így nézzen ki pl(fogyaszto/ellenallas/áram/feszültség/név):
+A komponenseket ékezet nélkül kell írni: "fogyaszto"/"voltmero"/"amperero"
+fogyaszto/1/0/0/R1
+Ha voltmero/amperero-t szeretnénk hozzádni akkor így pl:
+ampermero/Ampermero1
+voltmero/Voltmero1
+
+Ha szét szeretnénk ágaztatni a hálózatot, tehát páhuzamosságot szeretnénk bele tenni akkor
+szetagaz  - ezzel kell kezdeni
+felso - aztán felso, majd a felso ág tartalmat kell belerakosgatni, pl fogyaszto, úgy ahogy fentebb leírtam
+fogyaszto/2/0/0/R2
+also - aztán also,majd az alsó ág tartalmat kell belerakosgatni
+fogyaszto/2/0/0/R3
+szetagazvege - vegül a szétagazást így kell lezárni
